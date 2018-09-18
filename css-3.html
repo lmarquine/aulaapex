@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    #container1 section + p{
+        background-color: purple;
+    }
+
+    div > div > p{
+        background-color: green;
+    }
+
+    .pai p{
+        background-color: blue;
+    }
+
+</style>
+
+<div id="container1">
+    <section></section>
+    <p>Roxo</p>
+    <div>
+        <p>Verde</p>
+        <p>Verde</p>
+        <p>Verde</p>
+    </div>
+    <div class="pai">
+        <p>Azul</p>
+        <div>
+            <p>Azul</p>
+            <p>Azul</p>
+            <p>Azul</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

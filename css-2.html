@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula Front End | Aula 2</title>
+</head>
+<body>
+<style>
+    #container1 p{
+        background-color: red;
+    }
+    #container2 > p{
+        background-color: blue;
+    }
+    #container3 h2+p{
+        background-color: orange;
+    }
+</style>
+
+<section id="container1">
+    <p>Parágrafo</p>
+    <p>Parágrafo</p>
+    <div>
+        Div
+        <p>Parágrafo</p>
+        <div>
+            Div
+            <p>Parágrafo</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="container2">
+    <p>Parágrafo</p>
+    <p>Parágrafo</p>
+    <div>
+        <p>Parágrafo</p>
+        <p>Parágrafo</p>
+        <p>Parágrafo</p>
+    </div>
+</section>
+
+<section id="container3">
+    <h2>Título</h2>
+    <p>Parágrafo</p>
+    <p>Parágrafo</p>
+    <p>Parágrafo</p>
+    <div>
+        <p>Parágrafo</p>
+    </div>
+    <p>Parágrafo</p>
+</section>
+</body>
+</html>
